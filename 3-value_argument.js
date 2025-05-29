@@ -1,4 +1,4 @@
-import { argv } from 'node:process';
+const { argv } = require('node:process');
 
 const args = argv.slice(2); // Skip 'node' and script path
 
